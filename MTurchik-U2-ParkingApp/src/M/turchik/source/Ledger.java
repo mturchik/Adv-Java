@@ -103,4 +103,12 @@ public class Ledger {
         System.out.println("===$" + (paidLost + paidNorm) + " collected overall.");
         System.out.println("==============================");
     }
+
+    /**
+     * Returns the List of Tickets currently stored in the ledger.
+     * @return ledger
+     */
+    public List<Ticket> getLedger(){
+        return ledger;
+    }
 }
